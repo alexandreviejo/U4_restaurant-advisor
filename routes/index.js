@@ -43,7 +43,7 @@ router.get('/extendinglayout/', (req, res) => {
     { slug: '/add', title: 'Add', icon: 'add', },
   ];
 
-  res.render('extendingTestLayout', {
+  res.render('extendingLayout', {
     title: 'I love pizza',
     menu: menu
   });
